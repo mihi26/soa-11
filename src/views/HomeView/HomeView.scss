@@ -1,0 +1,24 @@
+@mixin flex-column($gap) {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}
+
+.home-view-container {
+  @include flex-column(128px);
+
+  .home-title-wrapper {
+    @include flex-column(24px);
+
+    .home-title {
+      font-size: 153px;
+      color: #232321;
+      font-weight: 700;
+      text-align: center;
+
+      &-highlighted {
+        color: #4a69e2;
+      }
+    }
+  }
+}

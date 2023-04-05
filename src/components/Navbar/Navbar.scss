@@ -1,0 +1,37 @@
+.navbar-container {
+  padding: 32px;
+  width: 100%;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 24px;
+  background-color: #fafafa;
+  margin-bottom: 24px;
+
+  .navbar-left {
+    display: flex;
+    gap: 40px;
+
+    .left-item-wrapper {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      .item-label {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;  
+      }
+    }
+  }
+
+  .navbar-right {
+    display: flex;
+    gap: 40px;
+
+    .right-item-wrapper {
+      cursor: pointer;
+    }
+  }
+}

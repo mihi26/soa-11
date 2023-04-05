@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -12,7 +14,8 @@ a:link {
   color: unset;
 }
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
   padding: 0px;
   margin: 0px;
+  font-size: 14px;
 }
