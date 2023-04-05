@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus,
+a:visited,
+a:link {
+  text-decoration: none;
+  color: unset;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
